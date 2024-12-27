@@ -1,0 +1,58 @@
+body {
+	background: black;
+}
+* {
+	font-family: "Playwrite TZ Guides", cursive;
+}
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+.postcard-header h1 {
+	width: 500px;
+	margin: 0;
+	padding-left: 9px;
+	padding-top: 22px;
+	font-size: 25px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	width: 50%;
+	padding: 5px;
+	padding-top: 40px;
+}
+input {
+	border: none;
+	border-bottom: 2px solid grey;
+    width: 90%;
+	color: grey;
+}
+.body-left p {
+	font-size: 12px;
+	padding-left: 5px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgrey;
+	padding: 2%;
+	margin-top: 10px;
+}
